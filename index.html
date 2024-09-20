@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronômetro e Contagem Regressiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Cronômetro</h2>
+    <div id="cronometro" class="timer">00:00:00</div>
+    <button onclick="startCronometro()">Iniciar</button>
+    <button onclick="pauseCronometro()">Pausar</button>
+    <button onclick="resetCronometro()">Resetar</button>
+  </div>
+
+  <div class="container">
+    <h2>Contagem Regressiva</h2>
+    <div id="contagemRegressiva" class="timer">00:00:00</div>
+    <button onclick="startCountdown()">Iniciar Contagem Regressiva (10 segundos)</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
